@@ -1,39 +1,41 @@
-.heading 
-{
-    width: 100%;
-    text-align: left;
-}
 
-.heading h3
+.heading
 {
+width: 100%;
+text-align: left;
+}
+.heading h3{
     display: inline;
 }
 
-.heading button
-{
+.heading button{
     float: right;
-    border: 1px solid black;
+    border: 1px solid white;
 }
 
-#restart, #status
+#start ,#status, #restart
 {
-    font-size: 25px;
+font-size: 22px;
 }
 
-.footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: lavender;
-    color: palevioletred;
-    text-align: center;
+.modal-dialog
+{
+    width: 70%;
+}
+.modal-body
+{
+    text-align: left;
+    font-size: 20px;
+}
+h4
+{
+   background-color: grey;
+   color:white;
+   line-height: 2;
+}
+canvas 
+  {
+      border:3px solid white;
+      border-radius: 20px;
+      box-shadow:  5px 5px 5px white;
   }
-
-  video
-{
-    background: url('game_console.png');
-    background-size: cover;
-    background-position: center;
-    padding: 25px;
-}
